@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(238, 238, 165);
+}
+/* div {
+    background-color: rgb(210, 237, 159);
+} */
+/* .container { */
+    /* background-color:rgb(203, 203, 249);
+    height: 300px;
+    border: 4px solid red;
+    padding: 50px;
+    width: 1000px;
+    margin-top:100px;
+    margin-left: 100px;
+    color: rgb(13, 87, 216);
+    box-sizing: border-box; */
+    /* box-sizing: border-box -> this will apply the box-sizing property to all the elements (removes extra padding, radius from the main box)  */
+/* } */
+.child1 {
+    background-color:rgb(240, 145, 240);
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+/* div p   -> this means all the 'p' pf div will get styled */
+/* div>p   -> this means only the 'p' directly in div will get styled (not to section elements inside that div)  */
+div+p {      
+    /* this applies styling only to the siblings of div, (p) here  */
+    background-color: yellow;
+}
+
+/* #child1 {
+    background-color:rgb(145, 214, 18);
+} */
+.myClass {
+    background-color: rgb(156, 9, 34);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+    /* align-items:center; */
+    /* justify-content: space-between; */
+}
+.Child1, .Child2, .Child3, .Child4 {
+    /* background-color: brown; */
+    height: 200px;
+    width:200px;
+    border: 2px dotted goldenrod;
+    /* display: inline;    (here height and width will not work)  */
+    display:inline-block;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.Child1 {
+    background-color: brown;
+}
+.Child2 {
+    background-color: aquamarine;
+    
+}
+.Child3 {
+    background-color: cadetblue;
+}
+.Child4 {
+    background-color: blue;
+}
